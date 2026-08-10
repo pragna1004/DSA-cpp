@@ -10,6 +10,7 @@ int main(){
         int needed=target-arr[i];
         if(seen.find(needed)!=seen.end()){
           cout<<needed<<" ,"<<arr[i];
+          return 0;
         }
         seen.insert(arr[i]);
     }
